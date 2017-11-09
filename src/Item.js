@@ -10,7 +10,7 @@ class Item extends Component {
 
 
       <div className="ListName"> {this.props.Items.name}</div>
-			                <div className="ListPrice"> {this.props.Items.price || "No price"} </div>
+			                <div className="ListPrice"> $ {this.props.Items.price} </div>
 			                <button className="ListDeleteButton"
 			                        title={"Delete " + this.props.Items.name}
 			                        onClick={this.props.onDelete}>

@@ -9,12 +9,12 @@ class App extends Component {
         this.state = {
             Items: [
                 {
-                    name: "Whiteboard",
-                    price: 5
+                    name: "",
+                    price:""
                 },
                 {
-                    name: "Broom",
-                    price: 10
+                    name: "",
+                    price:""
                 }
               ]
             };
